@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts" errors="0" package="/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts" hostname="localhost" tests="8" failures="8" time="3.214" timestamp="2024-02-01T14:11:57">
+    <properties>
+    </properties>
+    <testcase classname="Check L2 EVM logs for ://mainnet with 1 topic" name="Check L2 EVM logs for ://mainnet with 1 topic" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;values&apos;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:66:76
+    at Generator.next (&lt;anonymous&gt;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:65:75)
+    at Promise.then.completed (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Check L2 EVM logs for ://mainnet with 2 topics" name="Check L2 EVM logs for ://mainnet with 2 topics" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;values&apos;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:72:76
+    at Generator.next (&lt;anonymous&gt;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:71:76)
+    at Promise.then.completed (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Check L2 EVM logs for ://mainnet with 3 topics" name="Check L2 EVM logs for ://mainnet with 3 topics" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;values&apos;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:77:76
+    at Generator.next (&lt;anonymous&gt;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:76:76)
+    at Promise.then.completed (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Check L2 EVM logs for ://mainnet with 4 topics" name="Check L2 EVM logs for ://mainnet with 4 topics" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;values&apos;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:82:76
+    at Generator.next (&lt;anonymous&gt;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:81:76)
+    at Promise.then.completed (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Check L2 EVM logs for ://mainnet with multiple addresses" name="Check L2 EVM logs for ://mainnet with multiple addresses" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;values&apos;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:87:76
+    at Generator.next (&lt;anonymous&gt;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:86:86)
+    at Promise.then.completed (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Check L2 EVM logs for ://mainnet with blockHash" name="Check L2 EVM logs for ://mainnet with blockHash" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;values&apos;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:92:76
+    at Generator.next (&lt;anonymous&gt;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:91:77)
+    at Promise.then.completed (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Check L2 EVM logs for ://mainnet from same block with topic and address" name="Check L2 EVM logs for ://mainnet from same block with topic and address" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;values&apos;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:97:76
+    at Generator.next (&lt;anonymous&gt;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:96:101)
+    at Promise.then.completed (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Check L2 EVM logs for  from same block" name="Check L2 EVM logs for  from same block" time="0">
+      <failure message="TypeError: Cannot read properties of undefined (reading &apos;values&apos;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:103:76
+    at Generator.next (&lt;anonymous&gt;)
+    at /Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:4:12)
+    at Object.&lt;anonymous&gt; (/Users/lorenzourbini/Documents/evm-rpc-tester/rpc-tests/eth_getLogs.test.ts:102:59)
+    at Promise.then.completed (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:126:9)
+    at run (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/lorenzourbini/Documents/evm-rpc-tester/node_modules/jest-runner/build/runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
